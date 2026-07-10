@@ -1,390 +1,351 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="鍾心哲 Justin — 台大資管系學生，專注產品設計、iOS 與 Web 開發、商業分析與 AI 應用"
-    />
-    <title>鍾心哲 Justin | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <!-- 可替換：網站標題、導覽文案、各區塊內容與連結 -->
 
-    <a class="skip-link" href="#main">跳至主要內容</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="鍾心哲 Justin — 台大資管系學生，專注產品設計、iOS 與 Web 開發、商業分析與 AI 應用" />
+  <title>Justin | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
 
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="logo" href="#hero" aria-label="回到頁首">Justin</a>
+<body>
+  <!-- 可替換：網站標題、導覽文案、各區塊內容與連結 -->
 
-        <button
-          type="button"
-          class="nav-toggle"
-          id="nav-toggle"
-          aria-expanded="false"
-          aria-controls="site-nav"
-          aria-label="開啟選單"
-        >
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-        </button>
+  <a class="skip-link" href="#main">跳至主要內容</a>
 
-        <nav class="site-nav" id="site-nav" aria-label="主要導覽">
-          <ul class="nav-list">
-            <li><a href="#about">關於</a></li>
-            <li><a href="#projects">作品</a></li>
-            <li><a href="#skills">技能</a></li>
-            <li><a href="#experience">經歷</a></li>
-          </ul>
-        </nav>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#hero" aria-label="回到頁首">Justin</a>
 
-        <div class="header-actions">
-          <button
-            type="button"
-            class="theme-toggle"
-            id="theme-toggle"
-            aria-label="切換淺色或深色主題"
-          ></button>
-          <a class="btn btn--primary btn--sm header-cta" href="#footer">聯絡我</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav"
+        aria-label="開啟選單">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <ul class="nav-list">
+          <li><a href="#about">關於</a></li>
+          <li><a href="#projects">作品</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#experience">經歷</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切換淺色或深色主題"></button>
+        <a class="btn btn--primary btn--sm header-cta" href="#footer">聯絡我</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-inner reveal">
+          <p class="badge">Product · iOS · Web · AI</p>
+          <h1 class="hero-title">
+            Justin 用產品思維與程式，<br />
+            把想法做成真正可用的工具。
+          </h1>
+          <p class="hero-slogan">
+            台大資管系學生，熱衷科技、產品設計與 AI 應用。
+            從發想到上線，我重視使用者體驗、介面質感與實際使用情境。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#projects">查看作品</a>
+            <a class="btn btn--secondary" href="#about">了解更多</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="hero-visual-ring"></div>
+          <div class="hero-visual-core"></div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main id="main">
-      <section id="hero" class="hero section">
-        <div class="container hero-grid">
-          <div class="hero-inner reveal">
-            <p class="badge">Product · iOS · Web · AI</p>
-            <h1 class="hero-title">
-              Justin 用產品思維與程式，<br />
-              把想法做成真正可用的工具。
-            </h1>
-            <p class="hero-slogan">
-              台大資管系學生，熱衷科技、產品設計與 AI 應用。
-              從發想到上線，我重視使用者體驗、介面質感與實際使用情境。
+    <section class="stats section" aria-label="重點數據">
+      <div class="container">
+        <ul class="stats-grid">
+          <li class="stat-item reveal">
+            <span class="stat-value">5+</span>
+            <span class="stat-label">App 與網站專案</span>
+          </li>
+          <li class="stat-item reveal">
+            <span class="stat-value">8+</span>
+            <span class="stat-label">技術與工具</span>
+          </li>
+          <li class="stat-item reveal">
+            <span class="stat-value">3</span>
+            <span class="stat-label">核心角色</span>
+          </li>
+          <li class="stat-item reveal">
+            <span class="stat-value">1</span>
+            <span class="stat-label">代表產品「不揪？」</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="section-label">About</p>
+          <h2>關於我</h2>
+          <p class="section-lead">
+            國立臺灣大學資訊管理學系學生，對科技、產品設計、軟體開發、
+            商業分析與 AI 應用都有高度興趣，喜歡把想法做成實際可用的產品。
+          </p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-index" aria-hidden="true">01</span>
+            <h3>背景</h3>
+            <p>
+              我有多個 App 與網站開發經驗，通常負責產品發想、功能規劃、
+              介面設計、前端與 iOS 開發，以及資料庫串接，從 0 到 1 把專案落地。
             </p>
-            <div class="hero-actions">
-              <a class="btn btn--primary" href="#projects">查看作品</a>
-              <a class="btn btn--secondary" href="#about">了解更多</a>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index" aria-hidden="true">02</span>
+            <h3>專業</h3>
+            <p>
+              熟悉 SwiftUI、Firebase、React 等工具，也接觸資料結構、演算法、
+              文字探勘與 AI 應用。除了寫出能運作的程式，我更重視 UX、
+              產品定位與真實使用情境。
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index" aria-hidden="true">03</span>
+            <h3>理念</h3>
+            <p>
+              思考問題時，我會同時考量技術可行性、商業價值、使用者需求與執行方式；
+              習慣把複雜問題拆解成可執行的步驟，主動、好奇、持續迭代。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-projects">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Projects</p>
+          <h2>精選作品</h2>
+          <p class="section-lead">
+            聚焦校園生活、活動與社群的專案；其中「不揪？」是我投入最多的代表產品。
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-thumb" role="img" aria-label="不揪？ App 預覽圖佔位"></div>
+            <div class="project-body">
+              <h3>不揪？</h3>
+              <p>
+                課表分享社交 App，解決學生查課表、找朋友空堂、揪人活動等需求。
+                我負責產品發想、功能規劃、介面設計、iOS 開發與資料庫串接。
+              </p>
+              <ul class="tags" aria-label="使用技術">
+                <li>SwiftUI</li>
+                <li>Firebase</li>
+                <li>Product</li>
+              </ul>
             </div>
-          </div>
-          <div class="hero-visual reveal" aria-hidden="true">
-            <div class="hero-visual-ring"></div>
-            <div class="hero-visual-core"></div>
-          </div>
-        </div>
-      </section>
+          </article>
 
-      <section class="stats section" aria-label="重點數據">
-        <div class="container">
-          <ul class="stats-grid">
-            <li class="stat-item reveal">
-              <span class="stat-value">5+</span>
-              <span class="stat-label">App 與網站專案</span>
-            </li>
-            <li class="stat-item reveal">
-              <span class="stat-value">8+</span>
-              <span class="stat-label">技術與工具</span>
-            </li>
-            <li class="stat-item reveal">
-              <span class="stat-value">3</span>
-              <span class="stat-label">核心角色</span>
-            </li>
-            <li class="stat-item reveal">
-              <span class="stat-value">1</span>
-              <span class="stat-label">代表產品「不揪？」</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="about" class="section section-about">
-        <div class="container">
-          <header class="section-header section-header--center reveal">
-            <p class="section-label">About</p>
-            <h2>關於我</h2>
-            <p class="section-lead">
-              國立臺灣大學資訊管理學系學生，對科技、產品設計、軟體開發、
-              商業分析與 AI 應用都有高度興趣，喜歡把想法做成實際可用的產品。
-            </p>
-          </header>
-          <div class="feature-grid">
-            <article class="feature-card reveal">
-              <span class="feature-index" aria-hidden="true">01</span>
-              <h3>背景</h3>
+          <article class="project-card reveal">
+            <div class="project-thumb project-thumb--alt" role="img" aria-label="訂閱管理 App 預覽圖佔位"></div>
+            <div class="project-body">
+              <h3>訂閱管理 App</h3>
               <p>
-                我有多個 App 與網站開發經驗，通常負責產品發想、功能規劃、
-                介面設計、前端與 iOS 開發，以及資料庫串接，從 0 到 1 把專案落地。
+                協助使用者整理與追蹤各類訂閱服務，從需求梳理到介面設計與
+                前端實作，注重資訊層級清晰與日常使用的便利性。
               </p>
-            </article>
-            <article class="feature-card reveal">
-              <span class="feature-index" aria-hidden="true">02</span>
-              <h3>專業</h3>
+              <ul class="tags" aria-label="使用技術">
+                <li>iOS</li>
+                <li>SwiftUI</li>
+                <li>UI/UX</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb project-thumb--alt2" role="img" aria-label="系學會與迎新宿營網站預覽圖佔位"></div>
+            <div class="project-body">
+              <h3>系學會與迎新宿營網站</h3>
               <p>
-                熟悉 SwiftUI、Firebase、React 等工具，也接觸資料結構、演算法、
-                文字探勘與 AI 應用。除了寫出能運作的程式，我更重視 UX、
-                產品定位與真實使用情境。
+                台大資管系學會官網與迎新宿營活動網站，涵蓋活動資訊、
+                報名流程與組織形象呈現，兼顧 RWD 與維護便利性。
               </p>
-            </article>
-            <article class="feature-card reveal">
-              <span class="feature-index" aria-hidden="true">03</span>
-              <h3>理念</h3>
-              <p>
-                思考問題時，我會同時考量技術可行性、商業價值、使用者需求與執行方式；
-                習慣把複雜問題拆解成可執行的步驟，主動、好奇、持續迭代。
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section section-projects">
-        <div class="container">
-          <header class="section-header reveal">
-            <p class="section-label">Projects</p>
-            <h2>精選作品</h2>
-            <p class="section-lead">
-              聚焦校園生活、活動與社群的專案；其中「不揪？」是我投入最多的代表產品。
-            </p>
-          </header>
-
-          <div class="projects-grid">
-            <article class="project-card reveal">
-              <div
-                class="project-thumb"
-                role="img"
-                aria-label="不揪？ App 預覽圖佔位"
-              ></div>
-              <div class="project-body">
-                <h3>不揪？</h3>
-                <p>
-                  課表分享社交 App，解決學生查課表、找朋友空堂、揪人活動等需求。
-                  我負責產品發想、功能規劃、介面設計、iOS 開發與資料庫串接。
-                </p>
-                <ul class="tags" aria-label="使用技術">
-                  <li>SwiftUI</li>
-                  <li>Firebase</li>
-                  <li>Product</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <div
-                class="project-thumb project-thumb--alt"
-                role="img"
-                aria-label="訂閱管理 App 預覽圖佔位"
-              ></div>
-              <div class="project-body">
-                <h3>訂閱管理 App</h3>
-                <p>
-                  協助使用者整理與追蹤各類訂閱服務，從需求梳理到介面設計與
-                  前端實作，注重資訊層級清晰與日常使用的便利性。
-                </p>
-                <ul class="tags" aria-label="使用技術">
-                  <li>iOS</li>
-                  <li>SwiftUI</li>
-                  <li>UI/UX</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <div
-                class="project-thumb project-thumb--alt2"
-                role="img"
-                aria-label="系學會與迎新宿營網站預覽圖佔位"
-              ></div>
-              <div class="project-body">
-                <h3>系學會與迎新宿營網站</h3>
-                <p>
-                  台大資管系學會官網與迎新宿營活動網站，涵蓋活動資訊、
-                  報名流程與組織形象呈現，兼顧 RWD 與維護便利性。
-                </p>
-                <ul class="tags" aria-label="使用技術">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills" class="section section-skills">
-        <div class="container">
-          <header class="section-header section-header--center reveal">
-            <p class="section-label">Skills</p>
-            <h2>技能</h2>
-            <p class="section-lead">
-              開發、設計與分析相關的工具與語言，持續拓展 AI 與資料應用能力。
-            </p>
-          </header>
-          <ul class="skills-grid">
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">SwiftUI</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">React</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">Firebase</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">JavaScript</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">Python</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">HTML / CSS</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">C / C++</span>
-            </li>
-            <li class="skill-card reveal">
-              <span class="skill-card__icon" aria-hidden="true"></span>
-              <span class="skill-card__name">AI / Data</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="experience" class="section section-experience">
-        <div class="container">
-          <header class="section-header reveal">
-            <p class="section-label">Experience</p>
-            <h2>經歷</h2>
-            <p class="section-lead">
-              產品開發、管理顧問與校園領導經驗的交會。
-            </p>
-          </header>
-          <ul class="experience-list">
-            <li class="experience-item reveal">
-              <div class="experience-item__meta">
-                <span class="experience-index" aria-hidden="true">01</span>
-                <time class="timeline-date" datetime="2025">現任</time>
-              </div>
-              <div class="experience-item__body">
-                <h3>台大資管系學會 · 會長</h3>
-                <p>
-                  領導系學會運作，負責活動規劃、網站建置、組織協調與跨部門溝通，
-                  推動系上活動與學生服務。曾任資訊部長，參與系學會網站開發與維護。
-                </p>
-              </div>
-            </li>
-            <li class="experience-item reveal">
-              <div class="experience-item__meta">
-                <span class="experience-index" aria-hidden="true">02</span>
-                <time class="timeline-date" datetime="2024"
-                  >BCG</time
-                >
-              </div>
-              <div class="experience-item__body">
-                <h3>BCG Part-time Assistant Program</h3>
-                <p>
-                  協助產業研究、會議紀錄、資料整理、商業分析與簡報支援，
-                  在顧問情境中練習結構化思考與精準表達。
-                </p>
-              </div>
-            </li>
-            <li class="experience-item reveal">
-              <div class="experience-item__meta">
-                <span class="experience-index" aria-hidden="true">03</span>
-                <time class="timeline-date" datetime="2023">持續</time>
-              </div>
-              <div class="experience-item__body">
-                <h3>程式設計社群與校園創新</h3>
-                <p>
-                  參與程式設計相關社群與活動，對教育、校園服務、
-                  學生工具與創新創業保持高度興趣，持續將想法做成可上線的產品。
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="cta-banner section" aria-label="行動呼籲">
-        <div class="container cta-banner__inner reveal">
-          <div class="cta-banner__copy">
-            <p class="section-label">Contact</p>
-            <h2>一起把下一個想法<br />變成真正可用的產品。</h2>
-            <p class="section-lead">
-              無論是 App、校園工具、產品合作或創新發想，都歡迎與我聯繫。
-            </p>
-          </div>
-          <div class="cta-banner__actions">
-            <a class="btn btn--primary" href="mailto:hello@example.com">寄信給我</a>
-            <a class="btn btn--secondary" href="#projects">瀏覽作品</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer id="footer" class="site-footer">
-      <div class="container footer-grid reveal">
-        <div class="footer-brand">
-          <p class="footer-name">鍾心哲 Justin</p>
-          <a class="footer-email" href="mailto:hello@example.com"
-            >hello@example.com</a
-          >
-          <p class="footer-tagline">台大資管 · 產品 · 開發 · 創新</p>
-        </div>
-
-        <nav class="footer-nav" aria-label="頁尾導覽">
-          <p class="footer-nav__title">Menu</p>
-          <ul>
-            <li><a href="#about">關於</a></li>
-            <li><a href="#projects">作品</a></li>
-            <li><a href="#skills">技能</a></li>
-            <li><a href="#experience">經歷</a></li>
-          </ul>
-        </nav>
-
-        <div class="footer-social">
-          <p class="footer-nav__title">Socials</p>
-          <ul class="social-list" aria-label="社群連結">
-            <li>
-              <a
-                href="https://github.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a href="mailto:hello@example.com">Email</a>
-            </li>
-          </ul>
+              <ul class="tags" aria-label="使用技術">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <p class="copyright">
-          <small
-            >&copy; <span id="year"></span> 鍾心哲 Justin. 保留所有權利。</small
-          >
-        </p>
+    </section>
+
+    <section id="skills" class="section section-skills">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="section-label">Skills</p>
+          <h2>技能</h2>
+          <p class="section-lead">
+            開發、設計與分析相關的工具與語言，持續拓展 AI 與資料應用能力。
+          </p>
+        </header>
+        <ul class="skills-grid">
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">SwiftUI</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">React</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">Firebase</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">JavaScript</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">Python</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">HTML / CSS</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">C / C++</span>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-card__icon" aria-hidden="true"></span>
+            <span class="skill-card__name">AI / Data</span>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section id="experience" class="section section-experience">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Experience</p>
+          <h2>經歷</h2>
+          <p class="section-lead">
+            產品開發、管理顧問與校園領導經驗的交會。
+          </p>
+        </header>
+        <ul class="experience-list">
+          <li class="experience-item reveal">
+            <div class="experience-item__meta">
+              <span class="experience-index" aria-hidden="true">01</span>
+              <time class="timeline-date" datetime="2025">現任</time>
+            </div>
+            <div class="experience-item__body">
+              <h3>台大資管系學會 · 會長</h3>
+              <p>
+                領導系學會運作，負責活動規劃、網站建置、組織協調與跨部門溝通，
+                推動系上活動與學生服務。曾任資訊部長，參與系學會網站開發與維護。
+              </p>
+            </div>
+          </li>
+          <li class="experience-item reveal">
+            <div class="experience-item__meta">
+              <span class="experience-index" aria-hidden="true">02</span>
+              <time class="timeline-date" datetime="2024">BCG</time>
+            </div>
+            <div class="experience-item__body">
+              <h3>BCG Part-time Assistant Program</h3>
+              <p>
+                協助產業研究、會議紀錄、資料整理、商業分析與簡報支援，
+                在顧問情境中練習結構化思考與精準表達。
+              </p>
+            </div>
+          </li>
+          <li class="experience-item reveal">
+            <div class="experience-item__meta">
+              <span class="experience-index" aria-hidden="true">03</span>
+              <time class="timeline-date" datetime="2023">持續</time>
+            </div>
+            <div class="experience-item__body">
+              <h3>程式設計社群與校園創新</h3>
+              <p>
+                參與程式設計相關社群與活動，對教育、校園服務、
+                學生工具與創新創業保持高度興趣，持續將想法做成可上線的產品。
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-banner section" aria-label="行動呼籲">
+      <div class="container cta-banner__inner reveal">
+        <div class="cta-banner__copy">
+          <p class="section-label">Contact</p>
+          <h2>一起把下一個想法<br />變成真正可用的產品。</h2>
+          <p class="section-lead">
+            無論是 App、校園工具、產品合作或創新發想，都歡迎與我聯繫。
+          </p>
+        </div>
+        <div class="cta-banner__actions">
+          <a class="btn btn--primary" href="mailto:hello@example.com">寄信給我</a>
+          <a class="btn btn--secondary" href="#projects">瀏覽作品</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="container footer-grid reveal">
+      <div class="footer-brand">
+        <p class="footer-name">鍾心哲 Justin</p>
+        <a class="footer-email" href="mailto:hello@example.com">hello@example.com</a>
+        <p class="footer-tagline">台大資管 · 產品 · 開發 · 創新</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="頁尾導覽">
+        <p class="footer-nav__title">Menu</p>
+        <ul>
+          <li><a href="#about">關於</a></li>
+          <li><a href="#projects">作品</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#experience">經歷</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <p class="footer-nav__title">Socials</p>
+        <ul class="social-list" aria-label="社群連結">
+          <li>
+            <a href="https://github.com/" rel="noopener noreferrer" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:hello@example.com">Email</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="copyright">
+        <small>&copy; <span id="year"></span> 鍾心哲 Justin. 保留所有權利。</small>
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
